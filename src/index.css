@@ -1,0 +1,54 @@
+body {
+	font: 20px "Comic Sans", Futura, sans-serif;
+	margin: 20px;
+}
+
+ol, ul {
+	padding-left: 30px;
+}
+
+.row3:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.status {
+	margin-bottom: 10px;
+}
+
+.timer {
+	margin-bottom: 10px;
+}
+
+
+
+.info {
+	margin-left: 20px;
+}
+
+.smoke {
+	background: #fff;
+	border: 2px solid #999;
+	float: left;
+	height: 50px;
+	margin-right: -1px;
+	margin-top: -1px;
+	padding: 0;
+	text-align: center;
+	width: 50px;
+}
+
+.smoke:focus {
+	outline: none;
+}
+
+.kbd-navigation .smoke:focus {
+	background: #ddd;
+}
+
+.life {
+	display: flex;
+	flex-direction: row;
+}
+
